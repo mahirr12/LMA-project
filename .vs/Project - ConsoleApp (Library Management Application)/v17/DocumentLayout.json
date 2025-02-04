@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\services\\implementations\\borrowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:services\\implementations\\borrowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\services\\interfaces\\iborrowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:services\\interfaces\\iborrowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\entities\\borrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:entities\\borrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|c:\\users\\admin\\desktop\\codeac\\project - consoleapp (library management application)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD4D4BB-2A4A-49AF-91ED-A18D352CAE9D}|Project - ConsoleApp (Library Management Application).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Book.cs",
+              "RelativeToolTip": "Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:35:45.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "Entities\\Author.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Author.cs",
+              "RelativeToolTip": "Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:35:32.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Services\\Implementations\\BorrowerService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\BorrowerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Services\\Implementations\\BorrowerService.cs",
+              "RelativeToolTip": "Services\\Implementations\\BorrowerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:22:47.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBorrowerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Services\\Interfaces\\IBorrowerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBorrowerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Services\\Interfaces\\IBorrowerService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBorrowerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:20:44.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Borrower.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Borrower.cs",
+              "RelativeDocumentMoniker": "Entities\\Borrower.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Entities\\Borrower.cs",
+              "RelativeToolTip": "Entities\\Borrower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:19:05.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CodeAc\\Project - ConsoleApp (Library Management Application)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:32:07.339Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
