@@ -6,7 +6,7 @@ namespace Project___ConsoleApp__Library_Management_Application_.Repositories.Imp
 
 public class BookRepository : GenericRepository<Book>, IBookRepository
 {
-    public List<Book>? GetAllWithAuthors()
+    public List<Book> GetAllWithAuthors()
         => _context.Books.Where(b => !b.IsDeleted)
                          .Include(b => b.Authors)
                          .ToList();

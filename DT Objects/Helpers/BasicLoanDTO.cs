@@ -6,5 +6,5 @@ public class BasicLoanDTO
     public DateTime LoanDate { get; set; }
     public DateTime MustReturnDate { get; set; }
     public DateTime? ReturnDate { get; set; }
-    public List<BasicLoanItemDTO> LoanItems { get; set; }
+    public List<BasicBookDTO> LoanBooks { get; set; } = null!;
 }

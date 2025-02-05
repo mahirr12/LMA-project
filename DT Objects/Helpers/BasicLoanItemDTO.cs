@@ -9,5 +9,5 @@ namespace Project___ConsoleApp__Library_Management_Application_.DT_Objects.Helpe
 
 public class BasicLoanItemDTO
 {
-    public BasicBookDTO Book{ get; set; }
+    public BasicBookDTO Book { get; set; } = null!;
 }

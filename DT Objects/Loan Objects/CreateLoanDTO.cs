@@ -3,5 +3,5 @@
 public class CreateLoanDTO
 {
     public int BorrowerId { get; set; }
-    public List<int> BookIds { get; set; }
+    public List<int> BookIds { get; set; } = null!;
 }

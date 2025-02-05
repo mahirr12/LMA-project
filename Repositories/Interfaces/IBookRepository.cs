@@ -5,5 +5,5 @@ namespace Project___ConsoleApp__Library_Management_Application_.Repositories.Int
 public interface IBookRepository : IGenericRepository<Book>
 {
     Book? GetByIdWithAuthors(int id);
-    List<Book>? GetAllWithAuthors();
+    List<Book> GetAllWithAuthors();
 }

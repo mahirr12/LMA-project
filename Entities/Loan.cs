@@ -1,12 +1,5 @@
 ﻿namespace Project___ConsoleApp__Library_Management_Application_.Entitys
 {
-    /*Loan:
-Id (int, Primary Key)
-BorrowerId (int, Foreign Key)
-LoanDate (DateTime)
-MustReturnDate(DateTime)
-ReturnDate (DateTime?)
- */
     public class Loan : BaseEntity
     {
         public int BorrowerId { get; set; }
@@ -18,6 +11,7 @@ ReturnDate (DateTime?)
 
         public Loan()
         {
+            LoanDate = CreatedTime;
             MustReturnDate = LoanDate.AddDays(15);
         }
     }

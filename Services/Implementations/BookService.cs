@@ -21,7 +21,6 @@ public class BookService : IBookService
             Title = createBookDTO.Title,
             Description = createBookDTO.Description,
             PublishedYear = createBookDTO.PublishedYear,
-            CreatedTime = DateTime.UtcNow.AddHours(4),
             Authors = new List<Author>()
         };
 
@@ -52,7 +51,7 @@ public class BookService : IBookService
     {
         IBookRepository bookRepository = new BookRepository();
         var books = bookRepository.GetAllWithAuthors();
-        if (books == null || books.Count == 0) throw new NotFoundException("There is nothing to show here");
+        if (books.Count == 0) throw new NotFoundException("There is nothing to show here");
 
         var datas = new List<GetBookDTO>();
         foreach (var book in books)

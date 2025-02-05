@@ -129,3 +129,4 @@ C:\Users\Admin\Desktop\CodeAc\Project - ConsoleApp (Library Management Applicati
 C:\Users\Admin\Desktop\CodeAc\Project - ConsoleApp (Library Management Application)\obj\Debug\net8.0\Project - ConsoleApp (Library Management Application).pdb
 C:\Users\Admin\Desktop\CodeAc\Project - ConsoleApp (Library Management Application)\obj\Debug\net8.0\Project - ConsoleApp (Library Management Application).genruntimeconfig.cache
 C:\Users\Admin\Desktop\CodeAc\Project - ConsoleApp (Library Management Application)\obj\Debug\net8.0\ref\Project - ConsoleApp (Library Management Application).dll
+C:\Users\Admin\Desktop\CodeAc\Project - ConsoleApp (Library Management Application)\obj\Debug\net8.0\Project - ConsoleApp (Library Management Application).sourcelink.json

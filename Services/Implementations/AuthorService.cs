@@ -14,11 +14,7 @@ public class AuthorService : IAuthorService
     {
         if (createAuthorDTO == null || string.IsNullOrWhiteSpace(createAuthorDTO.Name)) throw new NullArgumentException();
         IAuthorRepository authorRepository = new AuthorRepository();
-        Author author = new Author()
-        {
-            Name = createAuthorDTO.Name,
-            CreatedTime = DateTime.UtcNow.AddHours(4)
-        };
+        Author author = new Author() { Name = createAuthorDTO.Name };
         authorRepository.Add(author);
         authorRepository.Commit();
     }

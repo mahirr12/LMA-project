@@ -10,19 +10,11 @@ namespace Project___ConsoleApp__Library_Management_Application_.Entitys
     {
         public int Id { get; set; }
         public bool IsDeleted { get; set; }
-        private DateTime _createdTime;
-        public DateTime CreatedTime
-        {
-            get => _createdTime;
-            set
-            {
-                _createdTime = value;
-                UpdatedTime = value;
-            }
-        }
+        public DateTime CreatedTime { get; set; }
         public DateTime UpdatedTime { get; set; }
         public BaseEntity()
         {
+            CreatedTime = DateTime.UtcNow.AddHours(4);
             UpdatedTime = CreatedTime;
         }
     }
