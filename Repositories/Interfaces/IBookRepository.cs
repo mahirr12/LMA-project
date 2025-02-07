@@ -6,4 +6,6 @@ public interface IBookRepository : IGenericRepository<Book>
 {
     Book? GetByIdWithAuthors(int id);
     List<Book> GetAllWithAuthors();
+    bool IsAvailable(int id);
+    List<Author>? SetAuthors(List<int> authorid);
 }

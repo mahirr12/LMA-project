@@ -9,4 +9,11 @@ public class GetBookDTO
     public string Description { get; set; } = null!;
     public int PublishedYear { get; set; }
     public List<BasicAuthorDTO> Authors { get; set; } = null!;
+    public bool IsAvailable { get; set; }
+
+    public override string ToString()
+    {
+        
+        return $"{Id} - {Title}. {PublishedYear} by {string.Join(", ",Authors.Select(a=>a.Name))}:\r\n {Description}";
+    }
 }

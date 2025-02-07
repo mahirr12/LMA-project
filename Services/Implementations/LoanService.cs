@@ -98,7 +98,7 @@ public class LoanService : ILoanService
     public void Return(int id)
     {
         ILoanRepository loanRepository = new LoanRepository();
-        var loan = loanRepository.GetById(id) ?? throw new NotFoundException("Loan not found");
+        var loan = loanRepository.GetByIdWithBorrowerAndBooks(id) ?? throw new NotFoundException("Loan not found");
 
         loan.ReturnDate = DateTime.UtcNow.AddHours(4);
         loanRepository.Commit();

@@ -7,6 +7,5 @@
         public string Description { get; set; } = null!;
         public int PublishedYear { get; set; }
         public List<Author> Authors { get; set; } = new();
-        public LoanItem? LoanItem{ get; set; }
     }
 }

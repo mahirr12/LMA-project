@@ -1,9 +1,5 @@
 ﻿namespace Project___ConsoleApp__Library_Management_Application_.Entitys
 {
-    /*LoanItem
-      Id (int, Primary Key)
-      BookId (int, Foreign Key)
-    */
     public class LoanItem : BaseEntity
     {
         public int BookId { get; set; }

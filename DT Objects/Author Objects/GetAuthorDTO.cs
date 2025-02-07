@@ -6,13 +6,14 @@ public class GetAuthorDTO
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;
-    public List<BasicBookDTO>? Books { get; set; }
+    public List<BasicBookDTO> Books { get; set; } = new();
 
     public override string ToString()
     {
-        string result = $"{Id} - {Name}\r\n";
-        if (Books != null && Books.Count != 0)
+        string result = $"{Id} - {Name}";
+        if (Books.Count != 0)
         {
+            result += "\r\nBooks: \r\n";
             foreach (var b in Books)
             {
                 result += b.ToString() + "\r\n";

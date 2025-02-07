@@ -24,10 +24,8 @@ public class BookService : IBookService
             Authors = new List<Author>()
         };
 
-        BookRepository bookRepository = new BookRepository();
-        var authors = bookRepository._context.Authors
-            .Where(a => createBookDTO.AuthorIds.Contains(a.Id))
-            .ToList();
+        IBookRepository bookRepository = new BookRepository();
+        var authors = bookRepository.SetAuthors(createBookDTO.AuthorIds);
         if (authors is null || authors.Count < createBookDTO.AuthorIds.Count) throw new NotFoundException("Author(s) not found");
 
         foreach (var author in authors)
@@ -69,7 +67,8 @@ public class BookService : IBookService
                 Title = book.Title,
                 Description = book.Description,
                 PublishedYear = book.PublishedYear,
-                Authors = basicAuthors
+                Authors = basicAuthors,
+                IsAvailable = bookRepository.IsAvailable(book.Id)
             });
         }
 
@@ -86,14 +85,14 @@ public class BookService : IBookService
             Id = author.Id,
             Name = author.Name
         });
-
         GetBookDTO getBookDTO = new GetBookDTO()
         {
             Id = book.Id,
             Title = book.Title,
             Description = book.Description,
             PublishedYear = book.PublishedYear,
-            Authors = basicAuthors
+            Authors = basicAuthors,
+            IsAvailable = bookRepository.IsAvailable(book.Id)
         };
 
         return getBookDTO;
@@ -105,7 +104,7 @@ public class BookService : IBookService
             || string.IsNullOrWhiteSpace(updateBookDTO.Title)
             || string.IsNullOrWhiteSpace(updateBookDTO.Description)) throw new NullArgumentException();
 
-        BookRepository bookRepository = new BookRepository();
+        IBookRepository bookRepository = new BookRepository();
         var book = bookRepository.GetByIdWithAuthors(id) ?? throw new NotFoundException("Book not found");
 
         book.Title = updateBookDTO.Title;
@@ -114,9 +113,7 @@ public class BookService : IBookService
         book.UpdatedTime = DateTime.UtcNow.AddHours(4);
         book.Authors.Clear();
 
-        var authors = bookRepository._context.Authors.Where(a => updateBookDTO.AuthorIds
-                                                     .Contains(a.Id))
-                                                     .ToList();
+        var authors = bookRepository.SetAuthors(updateBookDTO.AuthorIds);
         if (authors is null || authors.Count < updateBookDTO.AuthorIds.Count) throw new NotFoundException("Author(s) not found");
 
         foreach (var author in authors)

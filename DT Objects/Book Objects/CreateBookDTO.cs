@@ -2,8 +2,8 @@
 
 public class CreateBookDTO
 {
-    public string Title { get; set; } = null!;
-    public string Description { get; set; } = null!;
+    public string? Title { get; set; }
+    public string? Description { get; set; }
     public int PublishedYear { get; set; }
-    public List<int> AuthorIds { get; set; } = null!;
+    public List<int> AuthorIds { get; set; } = new();
 }
